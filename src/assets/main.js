@@ -1,6 +1,6 @@
 $(function() {
 
-   $.ajax({
+   jQuery.ajax() ({
     url: 'https://www.codeschool.com/users/mamriarti.json',
     dataType: 'jsonp',
     success: function(response) {
